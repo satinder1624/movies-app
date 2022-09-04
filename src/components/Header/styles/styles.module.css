@@ -1,0 +1,33 @@
+.container{
+    background: #000;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.container div:last-child{
+    width: 50%;
+    display: flex;
+    background-color: white;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 20px;
+}
+
+input{
+    width: 99%;
+    outline: none;
+    height: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+span{
+    color: goldenrod;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
