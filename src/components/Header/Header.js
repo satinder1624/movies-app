@@ -1,9 +1,10 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { StoreContext } from "../../store";
 import styles from "../Header/styles/styles.module.css";
 
 export default function Header() {
   const { searchItem, setSearchItem } = useContext(StoreContext);
+
   return (
     <div className={styles.container}>
       <div>
