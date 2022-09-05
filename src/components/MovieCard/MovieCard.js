@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "../MovieCard/styles/styles.module.css";
 
 import axios from "axios";
@@ -24,7 +24,7 @@ export default function MovieCard({
     }
 
     // Prev Button Display or Not
-    if (index == 0) {
+    if (index === 0) {
       setIsVisiblePrev(true);
     } else {
       setIsVisiblePrev(false);
@@ -60,7 +60,7 @@ export default function MovieCard({
         className={styles.movieCard}
         onClick={() => getMoreDetails(movieIndex)}
       >
-        <img src={Poster} width={300} height={300} />
+        <img src={Poster} width={300} height={300} alt={"Poster Missing"} />
         <span className={styles.movieName}>{Title}</span>
         <div className={styles.moviesDetails}>
           <span>Year: {Year}</span>

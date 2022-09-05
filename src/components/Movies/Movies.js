@@ -3,7 +3,6 @@ import MovieCard from "../MovieCard/MovieCard";
 import styles from "../Movies/styles/styles.module.css";
 
 import axios from "axios";
-import PopUp from "../PopUp/PopUp";
 import { StoreContext } from "../../store";
 import NoMovieFound from "../404/NoMovieFound";
 

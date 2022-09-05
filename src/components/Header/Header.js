@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { StoreContext } from "../../store";
 import styles from "../Header/styles/styles.module.css";
 
